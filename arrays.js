@@ -59,7 +59,7 @@ function removeElementFromBeginningOfArray(array) {
   } catch (e) {
     return array;
   }
-  
+
       array.splice(0, 1);
       return array;  //!!!!!
 
