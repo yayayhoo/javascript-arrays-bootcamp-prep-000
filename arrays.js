@@ -61,7 +61,7 @@ function removeElementFromBeginningOfArray(array) {
     // console.log(array);
   }
 
-    
+
       return a1.slice(1);  //!!!!!
 
 
