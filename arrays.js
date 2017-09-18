@@ -52,17 +52,17 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
 function removeElementFromBeginningOfArray(array) {
   // const a1 = array;
   try {
-    a1 = array;
-    array = [1];
+
+    array.splice(0, 1);
+    return array;  //!!!!!
   } catch (e) {
     return array;
   }
 
 
-  a1 = array;
-  a1.splice(0, 1);
-  return a1;  //!!!!!
+
 }
+
 
 function destructivelyRemoveElementFromEndOfArray(array){
   var a = array;
