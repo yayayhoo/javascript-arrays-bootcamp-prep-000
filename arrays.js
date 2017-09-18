@@ -52,7 +52,7 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
 function removeElementFromBeginningOfArray(array) {
   // const a1 = array;
   try {
-    var a = array;
+    a1 = array;
     array = [1];
   } catch (e) {
     return array;
