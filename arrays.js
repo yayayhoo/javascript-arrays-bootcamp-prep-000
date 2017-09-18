@@ -51,14 +51,14 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
 
 function removeElementFromBeginningOfArray(array) {
   // const a1 = array;
-  a1 = array;
+  var a1 = array;
 
   try {
     array = [1];
 
   } catch (e) {
-    // return array;
-    console.log(array);
+    return array;
+    // console.log(array);
   }
 
       a1.splice(0, 1);
