@@ -60,8 +60,8 @@ function removeElementFromBeginningOfArray(array) {
     return array;
   }
 
-      array.splice(0, 1);
-      return array;  //!!!!!
+      a1.splice(0, 1);
+      return a1;  //!!!!!
 
 
 }
