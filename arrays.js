@@ -57,7 +57,8 @@ function removeElementFromBeginningOfArray(array) {
     array = [1];
 
   } catch (e) {
-    return array;
+    // return array;
+    console.log(array);
   }
 
       a1.splice(0, 1);
